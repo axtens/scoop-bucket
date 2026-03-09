@@ -23,15 +23,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ftp.regressive.org/snobol4/Win10/win10-64-$version.tar.gz"
+                "url": "https://ftp.regressive.org/snobol4/Win10/win10-64-2.3.3.tar.gz"
             }
         },
-        "env_add_path": "SNOBOL4\\$version\\bin",
+        "env_add_path": "SNOBOL4\\2.3.3\\bin",
         "bin": [
-            [ "SNOBOL4\\$version\\bin\\snobol4.exe", "snobol4" ]
+            [ "SNOBOL4\\2.3.3\\bin\\snobol4.exe", "snobol4" ]
         ],
         "env_set": {
-            "SNOLIB": "$dir\\SNOBOL4\\$version\\lib"
+            "SNOLIB": "$dir\\SNOBOL4\\2.3.3\\lib"
         }
     }
 }
