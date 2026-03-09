@@ -9,15 +9,12 @@
             "hash": "5cbea6c2a40221ce6e8c9d9e6e14d1bca8e399e2e994ab3bf3f2dd1e1c7643ce"
         }
     },
-    "env_add_path": "SNOBOL4\\$version\\bin",
+    "env_add_path": "SNOBOL4\\2.3.3\\bin",
     "bin": [
-        [
-            "SNOBOL4\\$version\\bin\\snobol4.exe",
-            "snobol4"
-        ]
+        [ "SNOBOL4\\2.3.3\\bin\\snobol4.exe", "snobol4" ]
     ],
     "env_set": {
-        "SNOLIB": "$dir\\SNOBOL4\\$version\\lib"
+        "SNOLIB": "$dir\\SNOBOL4\\2.3.3\\lib"
     },
     "checkver": {
         "url": "https://www.regressive.org/snobol4/csnobol4/curr/",
@@ -31,10 +28,7 @@
         },
         "env_add_path": "SNOBOL4\\$version\\bin",
         "bin": [
-            [
-                "SNOBOL4\\$version\\bin\\snobol4.exe",
-                "snobol4"
-            ]
+            [ "SNOBOL4\\$version\\bin\\snobol4.exe", "snobol4" ]
         ],
         "env_set": {
             "SNOLIB": "$dir\\SNOBOL4\\$version\\lib"
